@@ -37,7 +37,13 @@ router.post('/', function(req, res, next) {
 
   //     var email = req.body.email;
   //     var pwd = req.body.pwd;
-  //      const sqlQuery = `INSERT INTO employees VALUES (:0, :1, :2)`;  
+      // var table = req.app.locals.table
+
+  
+
+  // const sqlQuery = `INSERT INTO `+table+` VALUES (:0, :1, :2)`;  
+  
+
   //      binds = [['1',email, pwd]]
    
   //      result =  await connection.executeMany(sqlQuery, binds, {});

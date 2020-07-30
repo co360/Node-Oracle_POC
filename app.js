@@ -33,6 +33,7 @@ var input = JSON.parse(input_stream);
 app.locals.connect_string = input.connect_string
 app.locals.user = input.user
 app.locals.password = input.password
+app.locals.table = input.table
 // console.log(app.locals.connect_string);
 
 

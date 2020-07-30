@@ -1,5 +1,6 @@
 {
     "user" : "sadmin",
     "password" : "Kolkata#1",
-    "connect_string" : "localhost/ORCL"
+    "connect_string" : "localhost/ORCL",
+    "table": "employees"
 }
