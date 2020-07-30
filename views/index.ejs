@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   </head>
+   <div class="container">
+
+    <!-- form action  -->
+   <form action="/insert_data" method="post">
+
+      <div class="form-group row">
+         <h1>MEMBER INFORMATION</h1>
+         <div class="form-row align-items-center">
+            <div class="col-auto my-1">
+               <label class="col-sm-3" for="inlineFormCustomSelect">1. Retirement System (Check one)</label>
+               <select class="custom-select mr-sm-6" id="inlineFormCustomSelect" name="Retirement_System">
+                  <option selected>Choose..</option>
+                  <option value="1">TPAF</option>
+                  <option value="2">PFRS</option>
+                  <option value="3">SPRS</option>
+                  <option value="3">JRS</option>
+               </select>
+            </div>
+         </div>
+</div>
+         
+         <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">2.Print Your Full Name  </label>
+            <div class="col-sm-10">
+               <input type="email" class="xform-control" id="inputEmail3" placeholder="Print Your Full Name ">
+            </div>
+         </div>
+         <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">3.Date of Birth </label>
+            <div class="col-sm-10">
+               <input type="email" class="xform-control" id="inputEmail3" placeholder="DD/MM/YYYY">
+            </div>
+         </div>
+         <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 col-form-label">4.Pension Membership or Social Security Number </label>
+            <div class="col-sm-4">
+               <input type="email" class="xform-control" id="inputEmail3" placeholder="XXX-XX-XXXX">
+            </div>
+         </div>
+         <h5>QUALIFICATIONS
+            The CARES Act allows a “qualified individual” to request the suspension of loan repayments until December 31, 2020.
+            A "qualified individual" is an active member of the PERS, TPAF, PFRS, SPRS, or JRS who:
+            s diagnosed with COVID-19 by a test approved by the Centers for Disease Control and Prevention; or
+            Has a spouse or dependent diagnosed with COVID-19 by a test approved by the Centers for Disease Control and
+            Prevention; or
+            Experiences adverse financial consequences as a result of (i) being quarantined, furloughed, laid off; or having work
+            hours reduced due to COVID-19; (ii) being unable to work due to lack of child care due to COVID-19; (iii) being
+            unable to work due to closing or reduced hours of a business owned or operated by the individual due to COVID19; or (iv) other factors as determined by the Secretary of the Treasury.
+            If suspended, loan repayments will be delayed until January 2021, interest will continue to accrue on the outstanding
+            loan balance, and you will not be eligible to take an additional loan for the duration of the suspension.
+            The suspension cannot be applied to a loan which is in default and has been designated as a deemed distribution, even
+            if the five-year repayment period has not reached maturity. 
+         </h5>
+         <h4>CERTIFICATION
+            I certify that I meet the qualifications of a qualified individual as set forth above. 
+         </h4>
+         <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">State your qualification here</label>
+            <div class="col-sm-10">
+               <input type="email" class="xform-control" id="inputEmail3" placeholder="Enter">
+            </div>
+         </div>
+         <div class="col-auto my-1">
+            <div class="form-check">
+               <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+               <label class="form-check-label" for="autoSizingCheck2">
+               (Check to agree) I request that my loan repayment be suspended through December 31, 2020, and understand that I will
+               not be eligible to take an additional loan while the payment is suspended. I understand and agree to comply with all loan
+               repayment terms and conditions, including when my loan balance is recertified that it will include accrued interest and that the
+               repayment may increase in accordance with federal guidelines. If I retire while my repayment is suspended, I understand that
+               the loan balance and accrued interest will be carried into retirement and as of January 2021, loan repayments will resume as
+               a deduction from my monthly retirement allowance until the loan balance plus interest is satisfied. I certify that the foregoing
+               statements made by me are true and accurate and understand that I am subject to prosecution should they be knowingly false. 
+               </label>
+            </div>
+         </div>
+      
+
+         <button type="submit" class="btn btn-default">Submit</button>
+      
+        </div>
+
+     
+
+   </form>
